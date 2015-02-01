@@ -18,9 +18,7 @@ void setup(){
   Serial.begin(9600);
   softSerial.begin(9600);//Begin serial comm for debugging
   shieldbot.setMaxSpeed(200,200);//255 is max, if one motor is faster than another, adjust values 
- //  syn.play(text1,sizeof(text1),1);//合成text1，背景音乐1
- // syn.play(text2,sizeof(text2),2);//合成text2，背景音乐2   
- //syn.play(text3,sizeof(text3),3);//合成text3，背景音乐3
+
    syn.play(text3,sizeof(text3),3);//合成text3，背景音乐3
 }
 
